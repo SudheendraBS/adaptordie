@@ -104,6 +104,8 @@ To start a trace session, click on the green *Start Trace Session* button at the
 
 ![Proxy Trace Tab](trace-started.png) 
 
+Now you will send requests to your API and they will be automatically captured by your trace session.
+
 ### Update the Endpoint in API Studio
 
 With your target hostname captured in your clipboard, return to your API Studio browser tab that you left open at the end of Lab 1. 
