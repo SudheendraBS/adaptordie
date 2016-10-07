@@ -132,7 +132,23 @@ Once again you should see a successful response:
 
 ![API Studio Response](apistudio-response.png)
 
+### View API Requests in Trace Tool
 
+Return to the trace view in the Apigee Edge Management UI. You should now see detailed debug information for each API call that you made from the API Studio client:
+
+![API Studio Response](trace-activity.png)
+
+In this view, you can select individual API calls to see exactly what happened and to verify your API is behaving as expected. 
+
+![API Studio Response](trace-calls.png)
+
+In later labs, the power of the trace tool will become even more evident as we configure new capabilities and use trace as a highly effective testing tool.
+
+### Up Next
+
+In this lab, you've created a new API proxy and used the trace tool to inspect traffic as it flows through your Apigee Edge instance. In the next lab, you'll implement basic traffic management and throttling capabilities on top of your API.
+
+When you're ready, get started on [Lab 3 - Throttling the API with Spike Arrest](lab3.md) 
 
 
 

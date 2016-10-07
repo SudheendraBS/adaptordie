@@ -25,7 +25,7 @@ Welcome to the Apigee Adapt or Die hands on DevJam workshop.
 
 1.  [Getting Familiar with the API](lab1.md)
 2.  [Exposing the API through Apigee Edge](lab2.md)
-3.  Throttling the API with Spike Arrest
+3.  [Throttling the API with Spike Arrest](lab3.md)
 4.  Improving API performance with Caching
 5.  Complete reservation check in using the API
 
