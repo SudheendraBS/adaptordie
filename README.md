@@ -4,7 +4,7 @@ Welcome to the Apigee Adapt or Die hands on DevJam workshop.
 
 # Getting Started
 
-  In this DevJam you will get first hand exposure to Apigee Edge, the industry's leading API Management platform. To get started with Apigee Edge, you will need to create an account and set up a free trial instance of Apigee Edge that you can use to build our labs today.
+  In this workshop, you will get first hand exposure to Apigee Edge, the industry's leading API Management platform. To get started with Apigee Edge, you will need to create an account and set up a free trial instance of Apigee Edge that you can use to build our labs today.
 
    If you're new to Apigee, visit this page to create an account: <a href="https://accounts2.apigee.com/accounts/sign_up" target="_blank">https://accounts2.apigee.com/accounts/sign_up</a>
 
@@ -16,7 +16,9 @@ Welcome to the Apigee Adapt or Die hands on DevJam workshop.
 
   Select the *Launch* button under the *Create and Manage APIs* to access the Apigee Edge Management UI. This should take you to the Dashboard of the Apigee Edge Management UI:
 
-  ![Apigee Dashboard](management-ui.png)  
+  ![Apigee Dashboard](management-ui.png)
+
+  Once you have successfully created an account and accessed the Apigee Edge Management UI, you are ready to start on the labs. 
 
 
 # Hands on Labs
