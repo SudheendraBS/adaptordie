@@ -100,3 +100,19 @@ Replace the original hostname of `escapade-prod.apigee.net` with the hostname th
 
 ![API Studio Host](apistudio-new-hostname.png)
 
+Just as you did in Lab 1, make a sample request to create a new reservation by finding the documentation view for the `POST /reservations` resource:
+
+![API Studio Request](apistudio-request.png)
+
+On your conference badge, you should see a member ID. Enter that member ID in the `memberid` field:
+
+![API Studio Member ID](apistudio-memberid.png)
+
+Click on the *Add Preference* button to specify your preferences for this reservation:
+
+![API Studio Preference](apistudio-prefs.png)
+
+
+
+
+
