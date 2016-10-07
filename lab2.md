@@ -62,7 +62,7 @@ Ensure your settings are exactly as specified in the above image, then click the
 
 The next screen will allow you to specify the Virtual Hosts you would like to bind your API proxy to. In the trial instance you are using, these will all use apigee.net domains. For production customers, these would usually be a custom domain for your company such as api.yourcompany.com:
 
-![New API Virtual Hosts](proxy-virualhosts.png)
+![New API Virtual Hosts](proxy-virtualhosts.png)
 
 You do not need to modify any of these values. Click the blue *Next* button at the bottom right of your screen to continue.
 
