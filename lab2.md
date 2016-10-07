@@ -1,6 +1,6 @@
 # Lab 2 - Exposing the API through Apigee Edge
 
-In this lab, we'll create an API Proxy inside of Apigee Edge using the Management UI. You can access the Management UI by visiting <a href="https://enterprise.apigee.com" target="_blank">https://enterprise.apigee.com</a>
+In this lab, you will create an API Proxy inside of Apigee Edge using the Management UI. You can access the Management UI by visiting <a href="https://enterprise.apigee.com" target="_blank">https://enterprise.apigee.com</a>
 
 If you do not have an Apigee account, please go back to the *Getting Started* section of the [project overview page](README.md) and follow the instructions there to get your account set up.
 
@@ -14,7 +14,11 @@ From the Management UI dashboard, select the APIs -> API Proxies option from the
 
 ![APIs Menu](apis-menu.png)
 
-This will take you to a list of all the *API Proxies* that have been created in your Apigee Edge instance (called an organization in Apigee terminology). API Proxies are the building blocks for creating APIs in Apigee Edge. Create a new API Proxy now by clicking on the *+ API Proxy* button 
+This will take you to a list of all the *API Proxies* that have been created in your Apigee Edge instance (called an organization in Apigee terminology). 
+
+![API Proxy List](proxies-list.png)
+
+API Proxies are the building blocks for creating APIs in Apigee Edge. Create a new API Proxy now by clicking on the *+ API Proxy* button 
 
 ![New API](new-proxy.png)
 
