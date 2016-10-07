@@ -14,13 +14,15 @@ Welcome to the Apigee Adapt or Die hands on DevJam workshop.
 
   ![Apigee Launch Page](apigee-accounts.png)
 
-  Select the *Launch* button under the *Create and Manage APIs* to access the Apigee Edge Management UI. 
+  Select the *Launch* button under the *Create and Manage APIs* to access the Apigee Edge Management UI. This should take you to the Dashboard of the Apigee Edge Management UI:
+
+  ![Apigee Dashboard](management-ui.png)  
 
 
 # Hands on Labs
 
 1.  [Getting Familiar with the API](lab1.md)
-2.  Exposing the API through Apigee Edge
+2.  [Exposing the API through Apigee Edge](lab2.md)
 3.  Throttling the API with Spike Arrest
 4.  Improving API performance with Caching
 5.  Complete reservation check in using the API

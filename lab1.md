@@ -1,4 +1,4 @@
-# Getting Familiar with the API
+# Lab 1 - Getting Familiar with the API
 
 In this lab, we'll explore the API that we'll be using for the duration of this workshop. The API exposes a simplified Reservation system. The API has three resources:
 
@@ -12,9 +12,9 @@ In this lab, we'll explore the API that we'll be using for the duration of this 
 
 We'll start this lab by opening the OpenAPI specification for our API in API Studio, Apigee's API modeling and design tool. To access API Studio, visit: <a href="https://apistudio.io" target="_blank">https://apistudio.io</a>
 
-On the API Studio landing page, click on the *Get Started* button to launch the API design view:
-
 ![API Studio Landing Page](apistudio-getstarted.png)
+
+On the API Studio landing page, click on the *Get Started* button to launch the API design view.
 
 # Import the OpenAPI Secification
 
@@ -63,3 +63,7 @@ To send the request, click on the *Send Request* button. This will make a live A
 To see the formatted JSON that was received in the response, click on the *Pretty* tab:
 
 ![API Studio Response JSON](apistudio-response-json.png)
+
+# Up Next
+
+Now that you are familiar with the API, you're ready to configure your Apigee Edge instance to quickly make a number of important improvements to the API. When you're ready, you can get started on [Lab 2 - Exposing the API through Apigee Edge](lab2.md).
