@@ -60,5 +60,22 @@ The default setting is to implement OAuth security for your API, however for the
 
 Ensure your settings are exactly as specified in the above image, then click the blue *Next* button at the bottom right of your screen to continue.
 
+The next screen will allow you to specify the Virtual Hosts you would like to bind your API proxy to. In the trial instance you are using, these will all use apigee.net domains. For production customers, these would usually be a custom domain for your company such as api.yourcompany.com:
 
+![New API Virtual Hosts](proxy-virualhosts.png)
 
+You do not need to modify any of these values. Click the blue *Next* button at the bottom right of your screen to continue.
+
+The final step in the wizard allows you to review your configuration and specify which environments you would like to deploy your proxy to. In your trial organization, there will be two preconfigured environments, test and prod. In a production instance of Apigee, you can configure multiple environments to align with your SDLC process.
+
+![New API Deploy](proxy-deploy.png)
+
+You do not need to modify any of these values. Click the blue *Build and Deploy* button at the bottom right of your screen to continue.
+
+You should see progress indicators on your browser as Apigee Edge deploys your new proxy. Upon completion, you should see a confirmation page showing that your proxy has been created and deployed successfully:
+
+![New API Confirm](proxy-confirm.png)
+
+Click on the *Adventures* link to open up your new proxy in the API Proxy editor. This will launch the API Proxy Editor and you should see a page that looks like this:
+
+![API Proxy Editor](proxy-editor-summary.png)
