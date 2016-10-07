@@ -39,3 +39,27 @@ Once you've copied the URL into the URL field, click on *Import* to load the Ope
 API Studio is useful tool for not only designing your APIs, but also for quickly experimenting with an API from its OpenAPI specification. On the right hand pane, you'll see a preview of your API documentation with the option to try the API directly from your browser. Scroll down until you see the documentation for the `POST /reservations` resource. This is the API call you can use to create a new reservation:
 
 ![API Studio Reservation Docs](apistudio-postres.png)
+
+Click on the *Try this operation* button. This will reveal a web form that you can use to craft a new request for your API. 
+
+![API Studio Request](apistudio-request.png)
+
+On your conference badge, you should see a member ID. Enter that member ID in the `memberid` field:
+
+![API Studio Member ID](apistudio-memberid.png)
+
+Click on the *Add Preference* button to specify your preferences for this reservation:
+
+![API Studio Preference](apistudio-prefs.png)
+
+Once you have entered your preferences and member ID, scroll down to see a preview of the HTTP request that will be sent to the API.
+
+![API Studio Preference](apistudio-request-preview.png)
+
+To send the request, click on the *Send Request* button. This will make a live API call to create your reservation. If all works as expected, you should see a successful response:
+
+![API Studio Response](apistudio-response.png)
+
+To see the formatted JSON that was received in the response, click on the *Pretty* tab:
+
+![API Studio Response JSON](apistudio-response-json.png)
