@@ -88,6 +88,22 @@ Your URL will look similar to this, except that instead of displaying `http://au
 
 Copy just the *hostname* portion of your test environment endpoint to your clipboard. The hostname will not have the leading `http://` or the trailing path after `.net`. In the example above, the hostname would be `autodemo-test.apigee.net`
 
+You'll use this hostname shortly to update your API client to point to your new API Proxy.
+
+### Start a Trace Session
+
+Apigee Edge includes a powerful trace tool that lets you inspect API calls as they are processed by your API Proxy. To start a trace session, click on the *Trace* tab in the top right of your window.
+
+ ![Proxy Trace Tab](proxy-trace-tab.png)
+
+ This will bring you to the trace view of your API proxy:
+
+![Proxy Trace Tab](proxy-trace-view.png) 
+
+To start a trace session, click on the green *Start Trace Session* button at the top of the tab. You should see the button turn to red with a timer counting down. This indicates that you have successfully started a trace session:
+
+![Proxy Trace Tab](trace-started.png) 
+
 ### Update the Endpoint in API Studio
 
 With your target hostname captured in your clipboard, return to your API Studio browser tab that you left open at the end of Lab 1. 
@@ -111,6 +127,16 @@ On your conference badge, you should see a member ID. Enter that member ID in th
 Click on the *Add Preference* button to specify your preferences for this reservation:
 
 ![API Studio Preference](apistudio-prefs.png)
+
+Once again you should see a successful response:
+
+![API Studio Response](apistudio-response.png)
+
+
+
+
+
+
 
 
 
