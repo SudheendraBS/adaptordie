@@ -79,3 +79,24 @@ You should see progress indicators on your browser as Apigee Edge deploys your n
 Click on the *Adventures* link to open up your new proxy in the API Proxy editor. This will launch the API Proxy Editor and you should see a page that looks like this:
 
 ![API Proxy Editor](proxy-editor-summary.png)
+
+On this summary page, you should see a section called *Deployments*. This section of the page shows you the endpoints that you can use to access your API in each of the environments that this API has been deployed. In this case, you should see an endpoint for your API corresponding to the test environment:
+
+![API Proxy Endpoint](proxy-test-endpoint.png)
+
+Your URL will look similar to this, except that instead of displaying `http://autodemo-test.apigee.net/adventures` yours will read `http://{your-orgname}-test.apigee.net/adventures` where `{your-orgname}` is replaced by the actual name of your Apigee organization. 
+
+Copy just the *hostname* portion of your test environment endpoint to your clipboard. The hostname will not have the leading `http://` or the trailing path after `.net`. In the example above, the hostname would be `autodemo-test.apigee.net`
+
+### Update the Endpoint in API Studio
+
+With your target hostname captured in your clipboard, return to your API Studio browser tab that you left open at the end of Lab 1. 
+
+In the OpenAPI specification editor, scroll to the very top of the page. On line 13, you should see where the host for the API has been set:
+
+![API Studio Host](apistudio-original-host.png)
+
+Replace the original hostname of `escapade-prod.apigee.net` with the hostname that you captured to your clipboard a moment ago.
+
+![API Studio Host](apistudio-new-hostname.png)
+

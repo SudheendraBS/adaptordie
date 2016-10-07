@@ -66,4 +66,6 @@ To see the formatted JSON that was received in the response, click on the *Prett
 
 # Up Next
 
-Now that you are familiar with the API, you're ready to configure your Apigee Edge instance to quickly make a number of important improvements to the API. When you're ready, you can get started on [Lab 2 - Exposing the API through Apigee Edge](lab2.md).
+Now that you are familiar with the API, you're ready to configure your Apigee Edge instance to quickly make a number of important improvements to the API. Keep your browser tab with API Studio open; we'll be returning to it in subsequent labs to make additional API calls.
+
+When you're ready, you can get started on [Lab 2 - Exposing the API through Apigee Edge](lab2.md).
