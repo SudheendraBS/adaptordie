@@ -8,7 +8,7 @@ Welcome to the Apigee Adapt or Die hands on DevJam workshop.
 
    If you're new to Apigee, visit this page to create an account: <a href="https://accounts2.apigee.com/accounts/sign_up" target="_blank">https://accounts2.apigee.com/accounts/sign_up</a>
 
-  If you already have a trial account with Apigee, you can skip this step and use your existing instance. Access your Apigee instance by signing in here: <a href="https://https://login.apigee.com/login" target="_blank">https://login.apigee.com/login</a>. 
+  If you already have a trial account with Apigee, you can skip this step and use your existing instance. Access your Apigee instance by signing in here: <a href="//https://login.apigee.com/login" target="_blank">https://login.apigee.com/login</a>. 
 
   After signing into your new account you will see the Apigee launch page:
 
@@ -17,7 +17,13 @@ Welcome to the Apigee Adapt or Die hands on DevJam workshop.
   Select the *Launch* button under the *Create and Manage APIs* to access the Apigee Edge Management UI. 
 
 
-# Steps
+# Hands on Labs
+
+1 [Getting Familiar with the API](lab1.md)
+2 Exposing the API through Apigee Edge
+3 Throttling the API with Spike Arrest
+4 Improving API performance with Caching
+5 Complete reservation check in using the API
 
 
 
