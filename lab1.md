@@ -29,3 +29,13 @@ Once the main menu is visibile, select `File -> Import URL...` to import the Ope
 When the dialog appears, copy the following URL into the URL field: <a href="http://playground.apistudio.io/0f9aeab1-9b21-4091-9f7b-b46322ae28ce/spec" target="_blank">http://playground.apistudio.io/0f9aeab1-9b21-4091-9f7b-b46322ae28ce/spec</a>
 
 ![API Studio Import Dialog](apistudio-dialog.png)
+
+Once you've copied the URL into the URL field, click on *Import* to load the OpenAPI specification into the designer. You should then see a view that looks like this:
+
+![API Studio Designer](apistudio-designer.png)
+
+# Create a Reservation
+
+API Studio is useful tool for not only designing your APIs, but also for quickly experimenting with an API from its OpenAPI specification. On the right hand pane, you'll see a preview of your API documentation with the option to try the API directly from your browser. Scroll down until you see the documentation for the `POST /reservations` resource. This is the API call you can use to create a new reservation:
+
+![API Studio Reservation Docs](apistudio-postres.png)
