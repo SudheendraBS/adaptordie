@@ -30,4 +30,35 @@ Select the first option *Reverse proxy (most common)* and click on the *Use Open
 
 ![New API OpenAPI](proxy-openapi.png)
 
-In the URL field, enter the same URL that you used to import the API specification in API Studio: <a href="http://playground.apistudio.io/0f9aeab1-9b21-4091-9f7b-b46322ae28ce/spec" target="_blank">http://playground.apistudio.io/0f9aeab1-9b21-4091-9f7b-b46322ae28ce/spec</a>
+In the URL field, enter the same URL that you used to import the API specification in API Studio: <a href="http://playground.apistudio.io/0f9aeab1-9b21-4091-9f7b-b46322ae28ce/spec" target="_blank">http://playground.apistudio.io/0f9aeab1-9b21-4091-9f7b-b46322ae28ce/spec</a> Then click the *Apply* button.
+
+You should now see the OpenAPI document URL correctly specified on the screen:
+
+![New API OpenAPI](api-proxy-after-openapi.png)
+
+Click the blue *Next* button at the bottom right to continue.
+
+The next page you will see allows you to customize the name and description of your API as well as the URI pattern that Apigee Edge will use to associate an incoming API call with your new proxy. In this case, any API calls which have a base path starting with `/adventures` will be handled by this proxy. 
+
+![New API Details](proxy-details.png)
+
+You do not need to modify any of these values. Click the blue *Next* button at the bottom right of your screen to continue.
+
+The next screen will allow you to configure the resources in your OpenAPI specification that you would like to expose through your new API Proxy.
+
+![New API Flows](proxy-flows.png)
+
+You do not need to modify any of these values. Click the blue *Next* button at the bottom right of your screen to continue.
+
+The next screen will allow you to configure security on your new API Proxy:
+
+![New API Flows](proxy-security.png)
+
+The default setting is to implement OAuth security for your API, however for the purposes of this lab we are going to change this setting to use the *Pass through (none)* option:
+
+![New API Passthrough](proxy-passthrough.png)
+
+Ensure your settings are exactly as specified in the above image, then click the blue *Next* button at the bottom right of your screen to continue.
+
+
+
