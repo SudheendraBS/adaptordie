@@ -55,3 +55,9 @@ Paste the `resrvationId` into the `reservationId` field in the API form. Make a 
 Once you have made several requests to retrieve your reservation you should have noticed a significant improvement in response time after the initial request. Navigate back to your trace session and observe the improvement in response time. 
 
 ![Cache improvement](cache-improve.png)
+
+## Up Next
+
+In this lab, you configured a response cache policy to reduce the response time of a poor performing API from 10 seconds down to a few milliseconds. Apigee Edge also provides fine grained cache policies that can be used for partial response caching or to cache arbitrary data.
+
+When you're ready, you can get started on [Lab 5 - Complete reservation check in using the API](lab5.md)
