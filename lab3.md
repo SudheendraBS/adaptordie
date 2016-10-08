@@ -45,3 +45,17 @@ Return to your API Studio browser tab. Just as in previous steps, send multiple 
 Return to the Apigee Edge Management UI and view the trace session for your API. You can now verify that your throttling policy is rejecting traffic. 
 
 ![Spike Trace](spike-trace.png)
+
+## FAQ
+
+Many people who first encounter the Spike Arrest policy ask the question: "I configured the Spike Arrest for 5 calls per minute, but it rejected calls after just 2-3. Why?"
+
+The Spike Arrest provides protection against sudden spikes in traffic. Imagine if you configured your Spike Arrest policy to allow 1,000 calls per minute. If all 1,000 calls are made in the first second of a given minute, it may still overload your backend. Spike Arrest can smooth out the traffic pattern of incoming calls.
+
+For cases where you want to allow a specific number of API calls regardless of the rate, you can use the Quota policy instead. 
+
+## Up Next
+
+In this lab, you configured basic traffic throttling. You configured your first policy, used the API client inside API Studio to test your policy, and used the trace tool to verify that your API was working correctly.
+
+When you're ready, get started on [Lab 4 - Improving API performance with Caching](lab4.md) 
