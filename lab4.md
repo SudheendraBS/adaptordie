@@ -31,3 +31,15 @@ Once you have the default Target Endpoint Post Flow selected, drag the Response 
 Once you have added the cache policy to the reponse pipeline, click on the blue *Save* button in the top left to save your changes:
 
 ![Save Cache](save-cache.png)
+
+## Start a Trace Session
+
+Just as in the previous lab. Navigate to the Trace tab and click on the green *Start Trace Session* button to begin a new trace session:
+
+![Spike Trace](start-trace.png)
+
+## Test Cache Configuration
+
+You should have made several test API calls to the `POST /reservations` resource from API Studio in previous labs. Inspect the response from your last API call and copy the `reservationId` value into your clipboard:
+
+![Reservation response](create-reservation-response.png)
