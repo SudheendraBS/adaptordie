@@ -48,6 +48,10 @@ With your reservationId copied, scroll down in the documentation to find the `GE
 
 ![Reservation](get-reservation.png)
 
+Paste the `resrvationId` into the `reservationId` field in the API form. Make a request to the API. The first request will be slow and take about 10 seconds to return. Subsequent requests should return much faster.
+
+![Reservation](get-reservation-request.png)
+
 Once you have made several requests to retrieve your reservation you should have noticed a significant improvement in response time after the initial request. Navigate back to your trace session and observe the improvement in response time. 
 
 ![Cache improvement](cache-improve.png)
