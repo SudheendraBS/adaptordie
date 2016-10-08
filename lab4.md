@@ -27,3 +27,7 @@ With this configuration, your API proxy will check the cache each time a reserva
 Once you have the default Target Endpoint Post Flow selected, drag the Response Cache policy from the policy list to the Response Pipeline:
 
 ![Target Cache](target-cache.png)
+
+Once you have added the cache policy to the reponse pipeline, click on the blue *Save* button in the top left to save your changes:
+
+![Save Cache](save-cache.png)
