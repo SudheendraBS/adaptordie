@@ -28,7 +28,7 @@ Once you have made this change, click on the blue *Save* button to save your cha
 
 Just as in the previous lab. Navigate to the Trace tab and click on the green *Start Trace Session* button to begin a new trace session:
 
-![Spike Trace](spike-trace.png)
+![Spike Trace](start-trace.png)
 
 ## Test Your Configuration
 
