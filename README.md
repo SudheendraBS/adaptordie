@@ -12,11 +12,11 @@ Welcome to the Apigee Adapt or Die hands on DevJam workshop.
 
   After signing into your new account you will see the Apigee launch page:
 
-  ![Apigee Launch Page](apigee-accounts.png)
+  ![Apigee Launch Page](images/apigee-accounts.png)
 
   Select the *Launch* button under the *Create and Manage APIs* to access the Apigee Edge Management UI. This should take you to the Dashboard of the Apigee Edge Management UI:
 
-  ![Apigee Dashboard](management-ui.png)
+  ![Apigee Dashboard](images/management-ui.png)
 
   Once you have successfully created an account and accessed the Apigee Edge Management UI, you are ready to start on the labs. 
 
