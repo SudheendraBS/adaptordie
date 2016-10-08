@@ -46,13 +46,9 @@ The next screen will allow you to configure the resources in your OpenAPI specif
 
 You do not need to modify any of these values. Click the blue *Next* button at the bottom right of your screen to continue.
 
-The next screen will allow you to configure security on your new API Proxy:
+The next screen will allow you to configure security on your new API Proxy. The default setting is to implement OAuth security for your API, however for the purposes of this lab we are going to change this setting to use the *Pass through (none)* option:
 
 ![New API Flows](proxy-security.png)
-
-The default setting is to implement OAuth security for your API, however for the purposes of this lab we are going to change this setting to use the *Pass through (none)* option:
-
-![New API Passthrough](proxy-passthrough.png)
 
 Ensure your settings are exactly as specified in the above image, then click the blue *Next* button at the bottom right of your screen to continue.
 
