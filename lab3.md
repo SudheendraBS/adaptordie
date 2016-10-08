@@ -39,3 +39,9 @@ Return to your API Studio browser tab. Just as in previous steps, send multiple 
  As you exceed the *frequency* of API calls that you specified in your Spike Arrest policy, you should begin to see errors.
 
 ![Spike Trace](spike-error.png)
+
+## View Results in the Trace Tool
+
+Return to the Apigee Edge Management UI and view the trace session for your API. You can now verify that your throttling policy is rejecting traffic. 
+
+![Spike Trace](spike-trace.png)
