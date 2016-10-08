@@ -43,3 +43,7 @@ Just as in the previous lab. Navigate to the Trace tab and click on the green *S
 You should have made several test API calls to the `POST /reservations` resource from API Studio in previous labs. Inspect the response from your last API call and copy the `reservationId` value into your clipboard:
 
 ![Reservation response](create-reservation-response.png)
+
+With your reservationId copied, scroll down in the documentation to find the `GET /reservations/{reservationId}` resource. Click on the *Try this operation* button to reveal the parameters you can set on your sample API call. 
+
+![Reservation](get-reservation.png)
