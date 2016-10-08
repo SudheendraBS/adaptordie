@@ -47,3 +47,7 @@ You should have made several test API calls to the `POST /reservations` resource
 With your reservationId copied, scroll down in the documentation to find the `GET /reservations/{reservationId}` resource. Click on the *Try this operation* button to reveal the parameters you can set on your sample API call. 
 
 ![Reservation](get-reservation.png)
+
+Once you have made several requests to retrieve your reservation you should have noticed a significant improvement in response time after the initial request. Navigate back to your trace session and observe the improvement in response time. 
+
+![Cache improvement](cache-improve.png)
