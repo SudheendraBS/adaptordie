@@ -34,7 +34,7 @@ Just as in the previous lab. Navigate to the Trace tab and click on the green *S
 
 Return to your API Studio browser tab. Just as in previous steps, send multiple API calls to your API.
 
-![Spike Trace](apistudio-trace.png)
+![Spike Trace](apistudio-spike.png)
 
  As you exceed the *frequency* of API calls that you specified in your Spike Arrest policy, you should begin to see errors.
 
