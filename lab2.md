@@ -84,11 +84,7 @@ You'll use this hostname shortly to update your API client to point to your new 
 
 ### Start a Trace Session
 
-Apigee Edge includes a powerful trace tool that lets you inspect API calls as they are processed by your API Proxy. To start a trace session, click on the *Trace* tab in the top right of your window.
-
- ![Proxy Trace Tab](proxy-trace-tab.png)
-
- This will bring you to the trace view of your API proxy:
+Apigee Edge includes a powerful trace tool that lets you inspect API calls as they are processed by your API Proxy. To start a trace session, click on the *Trace* tab in the top right of your window.This will bring you to the trace view of your API proxy:
 
 ![Proxy Trace Tab](proxy-trace-view.png) 
 
