@@ -6,7 +6,7 @@ In this lab, we'll implement response caching to improve the performance of one 
 
 Return to the Apigee Edge Management UI open. Navigate to the Design Tab of your API Proxy within the Proxy Editor view. 
 
-![API Proxy Design](proxy-design-lab4.png)
+![API Proxy Design](images/proxy-design-lab4.png)
 
 Click on the *+* button next to the Policies list in the left hand navigation pane. This will launch a dialog box where you can configure a new policy. In this case, we'll create a Response Cache policy:
 
