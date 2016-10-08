@@ -14,13 +14,9 @@ From the Management UI dashboard, select the APIs -> API Proxies option from the
 
 ![APIs Menu](apis-menu.png)
 
-This will take you to a list of all the *API Proxies* that have been created in your Apigee Edge instance (called an organization in Apigee terminology). 
+This will take you to a list of all the *API Proxies* that have been created in your Apigee Edge instance (called an organization in Apigee terminology). API Proxies are the building blocks for creating APIs in Apigee Edge. Create a new API Proxy now by clicking on the *+ API Proxy* button 
 
 ![API Proxy List](proxies-list.png)
-
-API Proxies are the building blocks for creating APIs in Apigee Edge. Create a new API Proxy now by clicking on the *+ API Proxy* button 
-
-![New API](new-proxy.png)
 
 This will launch the API Proxy creation wizard:
 
