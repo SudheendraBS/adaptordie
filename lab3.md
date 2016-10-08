@@ -23,3 +23,9 @@ By default, this policy will throttle traffic at a rate of 30 requests per secon
 Once you have made this change, click on the blue *Save* button to save your changes and automatically deploy your API Proxy. 
 
 ![Save Proxy](save-proxy.png)
+
+## Start a Trace Session
+
+Just as in the previous lab. Navigate to the Trace tab and click on the green *Start Trace Session* button to begin a new trace session:
+
+![Spike Trace](spike-trace.png)
