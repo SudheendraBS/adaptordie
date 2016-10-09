@@ -1,6 +1,8 @@
 # Lab 2 - Exposing the API through Apigee Edge
 
-In this lab, you will create an API Proxy inside of Apigee Edge using the Management UI. You can access the Management UI by visiting <a href="https://enterprise.apigee.com" target="_blank">https://enterprise.apigee.com</a>
+In this lab, you will create an API Proxy inside of Apigee Edge using the Management UI. You can access the Management UI by visiting
+
+[Edge Management UI](https://enterprise.apigee.com){:target="_blank"}
 
 If you do not have an Apigee account, please go back to the *Getting Started* section of the [project overview page](README.md) and follow the instructions there to get your account set up.
 
