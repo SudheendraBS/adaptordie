@@ -20,13 +20,9 @@ Once you have selected the `getReservationById` flow, drag the Response Cache po
 
 ![Reservation Cache](images/get-reservation-cache.png)
 
-With this configuration, your API proxy will check the cache each time a reservation lookup API call is made. Next, we need to configure your API proxy to populate the cache when you get a response from the backend service. To do this, select the Post Flow for your default Target Endpoint:
+With this configuration, your API proxy will check the cache each time a reservation lookup API call is made. Next, we need to configure your API proxy to populate the cache when you get a response from the backend service. To do this, drag the same Response Cache policy to the response pipeline:
 
-![Target Flow](images/target-postflow.png)
-
-Once you have the default Target Endpoint Post Flow selected, drag the Response Cache policy from the policy list to the Response Pipeline:
-
-![Target Cache](images/target-cache.png)
+![Reservation Cache](images/get-reservation-cache-response.png)
 
 Once you have added the cache policy to the reponse pipeline, click on the blue *Save* button in the top left to save your changes:
 
