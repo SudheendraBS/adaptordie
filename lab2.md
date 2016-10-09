@@ -2,7 +2,7 @@
 
 In this lab, you will create an API Proxy inside of Apigee Edge using the <a href="https://enterprise.apigee.com" target="_blank">Management UI</a>.
 
-[Edge Management](https://enterprise.apigee.com){:target="_blank"}
+[Edge Management](https://enterprise.apigee.com target="_blank")
 
 If you do not have an Apigee account, please go back to the *Getting Started* section of the [project overview page](README.md) and follow the instructions there to get your account set up.
 
