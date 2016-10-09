@@ -12,7 +12,7 @@ Scroll down in the documentation pane on the right half of API Studio to find th
 
 ![Reservation ID](images/check-in-op.png)
 
-Enter your `memberId`, `reservationId`, and `passCode`. `memberId` can be found on your conference badge just as in previous labs. `memberId` and `reservationId` will both be retrieved from the API call you made in a previous lab. If you don't have access to the previous API call, just create a new reservation by making a call to `POST /reservations` in API Studio. 
+Enter your `memberId`, `reservationId`, and `passCode`. `memberId` can be found on your conference badge just as in previous labs. `passCode` and `reservationId` will both be retrieved from the API call you made in a previous lab. If you don't have access to the previous API call, just create a new reservation by making a call to `POST /reservations` in API Studio. 
 
 ![Reservation ID](images/check-in-params.png)
 
