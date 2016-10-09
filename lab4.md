@@ -44,7 +44,7 @@ With your reservationId copied, scroll down in the documentation to find the `GE
 
 ![Reservation](images/get-reservation.png)
 
-Paste the `resrvationId` into the `reservationId` field in the API form. Make a request to the API. The first request will be slow and take about 10 seconds to return. Subsequent requests should return much faster.
+As mentioned above, you should have copied the `reservationId` from the calls you made in the last lab onto your clipboard. Paste the `reservationId` into the `reservationId` field in the API form. Make a request to the API. The first request will be slow and take about 10 seconds to return. Subsequent requests should return much faster.
 
 ![Reservation](images/get-reservation-request.png)
 
