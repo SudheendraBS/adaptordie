@@ -52,7 +52,7 @@ Many people who first encounter the Spike Arrest policy ask the question: "I con
 
 The Spike Arrest provides protection against sudden spikes in traffic. Imagine if you configured your Spike Arrest policy to allow 1,000 calls per minute. If all 1,000 calls are made in the first second of a given minute, it may still overload your backend. Spike Arrest can smooth out the traffic pattern of incoming calls.
 
-For cases where you want to allow a specific number of API calls regardless of the rate, you can use the Quota policy instead. 
+For cases where you want to allow a specific number of API calls regardless of the rate, you can use the <a href="http://docs.apigee.com/api-services/reference/quota-policy" target="_blank">Quota policy</a> instead. 
 
 ## Up Next
 
