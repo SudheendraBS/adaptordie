@@ -1,6 +1,6 @@
 # Lab 3 - Throttling the API with Spike Arrest
 
-Navigate to the Design tab of the API Proxy editor. This will bring you to the design view of your API proxy which will look like this:
+Navigate to the Develop tab of the API Proxy editor. This will bring you to the design view of your API proxy which will look like this:
 
 ![API Proxy Design View](images/proxy-design-view.png)
 
