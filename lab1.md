@@ -10,7 +10,7 @@ In this lab, we'll explore the API that we'll be using for the duration of this 
 
 # Open the API in API Studio
 
-We'll start this lab by opening the OpenAPI specification for our API in API Studio, Apigee's API modeling and design tool. To access API Studio, visit: <a href="https://apistudio.io" target="_blank">https://apistudio.io</a>
+We'll start this lab by opening the OpenAPI specification for our API in API Studio, Apigee's API modeling and design tool. To access API Studio, visit: <a href="http://apistudio.io" target="_blank">http://apistudio.io</a>
 
 ![API Studio Landing Page](images/apistudio-getstarted.png)
 
